@@ -1,0 +1,81 @@
+/* body{
+    background-image:url("./image/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+} */
+ 
+.border{
+    border: solid;
+}
+.my-div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50px 1px 50px 1px;
+    
+    cursor: grab;
+    margin-bottom: 10px;
+}
+p{ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 100px;
+ 
+}
+.font-style{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.btn1{
+ background-color: bisque;
+ border-radius: 6px;
+ padding: 2px 20px 2px 20px; 
+ color: black;
+}
+.btn2{
+    background-color: #9b59b6;
+    border-radius: 6px;
+    color:white;
+    padding: 2px 20px 2px 20px;
+}
+.btn3{
+    background-color: #1abc9c;
+    border-radius: 6px;
+    color:white;
+    padding: 2px 20px 2px 20px;
+}
+.btn4{
+    background-color: #95a5a6;
+    border-radius: 6px;
+    color:white;
+    padding: 2px 20px 2px 20px;
+}
+
+.btn1:hover{
+    background-color: aliceblue;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+.btn2:hover{
+    background-color: #d9a0f0;
+    color: black;
+    border:1px solid wheat;
+    border-radius: 30px;
+    cursor: grab;
+}
+.btn3:hover{
+    background-color: #18473e;
+    border: 2px dotted white;
+}
+.btn4:hover{
+    background-color: #d3dede;
+    color: black;
+    border: 0px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+}

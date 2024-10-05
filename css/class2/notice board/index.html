@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .board{
+            background-color: bisque;
+            border: 2px solid black;
+            width: 90%;
+            height: 900px;
+            margin: 40px;
+            padding: 50px;
+        }
+        .notice-static{
+            border: 1px solid black ;
+            background-color: blue;
+            position: static;
+
+        }
+        .notice-relative{
+            border: 1px solid black ;
+            background-color: red;
+            position: relative;
+            top: 300px;
+            left: 100px;
+
+        }
+        .notice-sticky{
+            border: 1px solid black ;
+            background-color: rgb(136, 0, 255);
+            position: sticky;
+            top:0;
+        }
+        .notice-fixed{
+            border: 1px solid black ;
+            background-color: rgb(0, 187, 255);
+            position: fixed;
+            top:110px;
+        }
+        .notice-absolute{
+            top: 500px;
+
+            border: 1px solid black ;
+            background-color: rgb(30, 255, 0);
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="board">
+        <div class="notice-static">i am static</div>
+        <div class="notice-relative">i am relative</div>
+        <div class="notice-sticky">i am sticky</div>
+        <div class="notice-fixed">i am fixed</div>
+        <div class="notice-absolute">i am absolute</div>
+    </div>
+</body>
+</html>

@@ -9,8 +9,9 @@
 }
 
 .my-text{
+    font-family: "Sixtyfour Convergence", sans-serif;
     color: var(--bg-color);
-    text-decoration:overline;
+    text-decoration:none;
     word-spacing: 10px;
     letter-spacing: 10px;
 }
@@ -19,6 +20,11 @@
     width: 200px;
     overflow: scroll;
     line-height: 80%;
-    font-family: "Sixtyfour Convergence", sans-serif;
+    
 
+}
+.my-img{
+    filter: blur(1px);
+    /* filter: grayscale(100%); */
+    width: 300px;
 }

@@ -79,3 +79,6 @@ p{
     cursor: pointer;
     border-radius: 50px;
 }
+.my-lineHeight{
+    line-height: normal;
+}

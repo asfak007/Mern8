@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .board{
+            background-color: bisque;
+            border: 2px solid black;
+            width: 90%;
+            height: 900px;
+            margin: 40px;
+            padding: 50px;
+            position: relative;
+
+        }
+        .notice-static{
+            border: 1px solid black;
+            background-color: blue;
+            position : static;
+        }
+        .notice-relative{
+            border: 1px solid black;
+            background-color: blueviolet;
+            position: relative;
+            top: 300px;
+        }
+        .notice-absolute{
+            border: 1px solid black;
+            background-color: greenyellow;
+            position: absolute;
+        }
+        .notice-sticky{
+            border: 1px solid black;
+            background-color: aquamarine;
+            top: 0;
+            position: sticky;
+        }
+        .notice-fixed{
+            border: 1px solid black;
+            background-color: brown;
+            position: fixed;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="board">
+        <div class="notice-static">I am static notice</div>
+         <div class="notice-relative">I am relative notice</div>
+         <div class="notice-sticky">I am sticky notice</div> <div class="notice-absolute">I am absulate notice</div> <div class="notice-fixed">I am fixed notice</div>
+    </div>
+    <h4>THIS IS NEW</h4>
+</body>
+</html>
